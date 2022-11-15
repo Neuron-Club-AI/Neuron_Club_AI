@@ -1,0 +1,16 @@
+
+.navbar
+{
+  background: rgb(51, 50, 50);
+  z-index: 99;
+  
+}
+.navbar-brand,.nav-link{
+  color: white !important;
+}
+.nav-link:hover{
+  color: blue !important;
+}
+.active{
+  color: rgb(36, 156, 174) !important;
+}
