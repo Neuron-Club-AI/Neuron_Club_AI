@@ -2,6 +2,7 @@
 import './App.css';
 import { HashRouter as Router, Route, Routes, } from "react-router-dom";
 import NavBar from './components/NavBar/NavBar';
+import Home from './components/Home/home'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <div>
       <NavBar />
+      <Home/>
       {/* <Routes>
             
             <Route path="/" index element={<ParallaxPages />}/>
