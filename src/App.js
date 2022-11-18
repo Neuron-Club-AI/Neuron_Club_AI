@@ -4,7 +4,8 @@ import { HashRouter as Router, Route, Routes, } from "react-router-dom";
 import NavBar from './components/NavBar/NavBar';
 
 import Contact from "./components/ContactPage/contact"
-import Home from './components/Home/home'
+
+// demo change
 
 
 function App() {
